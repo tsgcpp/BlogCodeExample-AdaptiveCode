@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 public abstract class TestRounderBase
 {
-    // abstract指定で継承クラスのテストクラスのインスタンス生成を定義させる
+    // abstract指定により対象オブジェクトのインスタンス生成を継承テストクラスで定義
     public abstract IRounder CreateTarget();
 
     IRounder _target;
